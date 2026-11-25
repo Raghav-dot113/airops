@@ -12,11 +12,11 @@ public final class DBConnection {
 
     private static final String USER = "root";
 
-    private static final String PASSWORD =
-            System.getenv("AIROPS_DB_PASSWORD");
+    private static final String PASSWORD ="Raghav@123456";
+
 
     private DBConnection() {
-        // Prevent object creation
+        
     }
 
     public static Connection getConnection() throws SQLException {
